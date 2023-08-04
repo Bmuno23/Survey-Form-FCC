@@ -1,0 +1,46 @@
+header{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#title{
+    text-align: center;
+}
+#description{
+    color: black;
+}
+fieldset{
+    text-align: center;
+    border-radius: 10px;
+    background-color:#1b1b32;
+    border: 3px solid white;
+}
+input[type="submit"]{
+    display: block;
+    margin: auto;
+    width: 100px;
+    margin-top: 30px;
+    background-color: #1b1b32;
+    border-radius: 5px;
+}
+header{
+    margin-top: -20px;
+    background-color:  #EBE7DB;
+    border-radius: 10px;
+    padding-bottom: 10px;
+}
+input,
+select,
+textarea{
+    background-color: white;
+}
+label,
+input[type="submit"]{
+    color: white;
+}
+form{
+    font-family: 'Times New Roman', Times, serif;
+}
+input[type="submit"]:hover{
+    background-color: rgb(100, 15, 15);
+}
+
+

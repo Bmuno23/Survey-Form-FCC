@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Survey Form</title>
+        <meta http-equiv="refresh" content="">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <header id="title"">
+            <h1>Survey</h1>
+            <p id="description">Welcome To My Survey Form For FCC</p>
+        </header>
+        <form id="survey-form">
+            <fieldset>
+                <label id="name-label">Name: <input id="name" type="text" placeholder="Enter Your Name" required></label>
+                <label id="email-label">Email: <input type="email" id="email" placeholder="Enter Your Email" required></label>
+                <label id="number-label">Age (optional): <input id="number" type="number" min="10" max="100" placeholder="Age"></label>
+            </fieldset>
+            <fieldset>
+                <label>How do you feel about this club in general?
+                    <select id="dropdown">
+                        <option value="">Select One</option>
+                        <option value="1">Very Good</option>
+                        <option value="2">Good</option>
+                        <option value="3">Could Improve</option>
+                        <option value="4">Bad</option>
+                        <option value="5">Very Bad</option>
+                    </select>
+                </label>
+            </fieldset>
+            <fieldset>
+                <label>Would you recommend RLU to other people?</label>
+                <p>
+                <label>Yes<input type="radio" value="1" name="options"></label>
+                <label>No<input type="radio" value="1" name="options"></label>
+                <label>Not Sure<input type="radio" value="1" name="options"></label>
+                </p>
+            </fieldset>
+            <fieldset>
+                <label>What Would You Like to see Improved? (select all that apply)</label>
+                <p>
+                    <label>Drills<input type="checkbox" value="1" ></label>
+                    <label>Communication<input type="checkbox" value="2"></label>
+                    <label>Staff<input type="checkbox" value="3"></label>
+                    <label>Registration<input type="checkbox" value="4"></label>
+                    <label>Costs<input type="checkbox" value="5"></label>
+                </p>
+            </fieldset>
+            <fieldset>
+                <label>Any comments or suggestions?</label>
+                <textarea type="text" placeholder="Enter comments here"></textarea>
+            </fieldset>
+        </form>
+        <input id="submit" type="submit">
+    </body>
+</html>
